@@ -1,0 +1,22 @@
+CREATE TABLE `product` (
+  `proid` int(9) unsigned zerofill NOT NULL AUTO_INCREMENT,
+  `proname` varchar(60) NOT NULL,
+  `proprice` int NOT NULL,
+  `proqty` int DEFAULT '0',
+  PRIMARY KEY (`proid`)
+) ENGINE=InnoDB AUTO_INCREMENT=100000036 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+
+
+CREATE TABLE `userdata` (
+  `id` int(9) unsigned zerofill NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(200) NOT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `idno` varchar(50) DEFAULT NULL,
+  `is_account_non_locked` varchar(1) DEFAULT '1',
+  `is_enabled` varchar(1) DEFAULT '1',
+  `userdatacol` varchar(45) DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
