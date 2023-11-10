@@ -1,4 +1,4 @@
-# VueSpringBootEasyLab1
+# Vue2SpringBootPractice
 
 這個專案是一個前後端分離的練習項目：
 
